@@ -51,8 +51,8 @@ body {
 .green-btn { background-color: #89d009; }
 
 .text-display {
-    font-size: 48px;
-    line-height: 1.4;
+    font-size: 64px;
+    line-height: 1.1;
     width: 400px;
     height: 400px;
     display: flex;
