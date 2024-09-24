@@ -9,14 +9,14 @@ document.querySelectorAll('.color-btn').forEach((btn) => {
         document.body.style.backgroundColor = selectedColor;
 
         const footer = document.querySelector('footer');
-        const footerLink = footer.querySelector('a');
+        const footerLinks = footer.querySelectorAll('a');
 
         if (selectedColor === '#89d009') {
             footer.style.color = 'black';
-            footerLink.style.color = 'white';
+            footerLinks.forEach(link => link.style.color = 'white');
         } else {
             footer.style.color = 'black';
-            footerLink.style.color = '#89d009';
+            footerLinks.forEach(link => link.style.color = '#89d009');
         }
     });
 });

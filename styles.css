@@ -64,6 +64,7 @@ body {
     word-wrap: break-word;
     padding: 20px;
     overflow: hidden;
+    filter: blur(1px);
 }
 
 textarea {
